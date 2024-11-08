@@ -1,6 +1,6 @@
 // Made by https://t.me/Ashlynn_Repository
-const TOKEN = "5807644946:AAGAZQSufscN9N5IM0Edz-3DOPnv02QIkgI"; // Get it from @BotFather https://core.telegram.org/bots#6-botfather
-const CHAT_ID = null; // Integer, Chat ID of your Telegram chat. If you don't want to verify, set to null
+const TOKEN = "7370426549:AAGmmLjFeBcJ-QA3w7z_824hzTzn0HbuJik"; // Get it from @BotFather https://core.telegram.org/bots#6-botfather
+const CHAT_ID = -1002096709659; // Integer, Chat ID of your Telegram chat. If you don't want to verify, set to null
 // Made by https://t.me/Ashlynn_Repository
 const WEBHOOK = "/endpoint";
 const SECRET = "WEBHOOK_SECRET";
@@ -119,7 +119,7 @@ async function onMessage(message) {
 }
 async function sendStartMessage(chatId) {
   const videoUrl = "https://file-stream.darkhacker7301.workers.dev/?file=MzA2OTMxOTgxMzI2MzkwOTAwLzEwNDczMTM0NA"; // Replace with actual video URL
-  const caption = "→ I ᴀᴍ CʜᴀᴛGPT X, I'm Devloped to answer your Question Made by @Itz_Ashlynn In India 🇮🇳\n\n🌎Wʜᴀᴛ ɪs Nᴇᴡ?\n→ Hᴀᴠᴇ ᴀ ғʀᴇᴇ ᴄʜᴀᴛ ɢᴘᴛ ʙᴏᴛ  sᴇʀᴠɪᴄᴇ ᴀᴛ ᴛʜᴇ ᴍᴏᴍᴇɴᴛ sᴏ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ʏᴏᴜ ᴡᴀɴᴛ.";
+  const caption = "→ I ᴀᴍ CʜᴀᴛGPT X, I'm Devloped to answer your Question Made by @ITZ_IND_CODER In India 🇮🇳\n\n🌎Wʜᴀᴛ ɪs Nᴇᴡ?\n→ Hᴀᴠᴇ ᴀ ғʀᴇᴇ ᴄʜᴀᴛ ɢᴘᴛ ʙᴏᴛ  sᴇʀᴠɪᴄᴇ ᴀᴛ ᴛʜᴇ ᴍᴏᴍᴇɴᴛ sᴏ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ʏᴏᴜ ᴡᴀɴᴛ.";
 
   await fetch(apiUrl("sendVideo"), {
     method: "POST",
@@ -137,9 +137,9 @@ async function sendHelpMessage(chatId) {
   const helpMessage = `
 ╔════❰ Cʜᴀᴛɢᴘᴛ X ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼🤖ᴍʏ ɴᴀᴍᴇ  : Cʜᴀᴛɢᴘᴛ X
-║┣⪼👦ᴅᴇᴠᴇʟᴏᴘᴇʀ: [Asʜʟʏɴɴ ⚡](https://telegram.me/Itz_Ashlynn)
-║┣⪼❣️ᴜᴘᴅᴀᴛᴇ   : [Asʜʟʏɴɴ Rᴇᴘᴏsɪᴛᴏʀʏ 🔰](https://telegram.me/Ashlynn_Repository/215)
+║┣⪼🤖ᴍʏ ɴᴀᴍᴇ  : Cʜᴀᴛɢᴘᴛ 
+║┣⪼👦ᴅᴇᴠᴇʟᴏᴘᴇʀ: [INDIAN CODER ⚡](https://telegram.me/@ITZ_IND_CODER)
+║┣⪼❣️ᴜᴘᴅᴀᴛᴇ   : [INDIAN CODERS 🔰](https://telegram.me/THE_IND_CODERS)
 ║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : [JS 💻](https://nodejs.org/en)
 ║┣⪼🧠ʜᴏsᴛᴇᴅ   : [ᴄʟᴏᴜᴅғʟᴀʀᴇ⚡](https://dash.cloudflare.com/)
 ║┣⪼📚ᴜᴘᴅᴀᴛᴇᴅ  : 3-Nov-2024
